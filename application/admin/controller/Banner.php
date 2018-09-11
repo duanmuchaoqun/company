@@ -30,7 +30,7 @@ class Banner extends Controller
 
     public function index()
     {
-        return $this->fetch('Index');
+        return $this->fetch();
     }
 
     public function create()
@@ -38,6 +38,6 @@ class Banner extends Controller
         if ($this->request->isPost()){
             echo '这是post请求';
         }
-        echo '这是页面';
+       return $this->fetch('create');
     }
 }

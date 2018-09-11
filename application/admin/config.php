@@ -8,7 +8,6 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-
 return [
     'template' => [
         'layout_on'     =>  true,
@@ -31,5 +30,9 @@ return [
         'taglib_begin' => '{',
         // 标签库标签结束标记
         'taglib_end'   => '}',
+    ],
+    'menu' => [
+        ['item'=>'首页','url'=>'Index/index','icon'=>'am-icon-home'],
+        ['item'=>'Banner','url'=>'Banner/index','icon'=>'am-icon-image']
     ]
 ];
