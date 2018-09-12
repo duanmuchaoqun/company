@@ -1,6 +1,7 @@
 <div class="tpl-content-wrapper">
     <ol class="am-breadcrumb">
-        <li class="am-active">Banner列表</li>
+        <i class="am-icon-image"></i>
+        <li class="am-active">Banner</li>
     </ol>
     <div class="tpl-portlet-components">
         <div class="tpl-block">

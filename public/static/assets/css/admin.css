@@ -371,3 +371,15 @@ gallery.html css
   width: 200px;
   margin: 0 auto;
 }
+.admin-input-width-150 {
+  width: 150px;
+}
+.admin-input-width-300 {
+  width: 300px;
+}
+.admin-input-width-500 {
+  width: 500px;
+}
+.admin-input-width-1000 {
+  width: 1000px;
+}

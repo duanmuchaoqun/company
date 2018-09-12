@@ -20,7 +20,7 @@
     <script src="__STATIC__/assets/js/jquery.min.js"></script>
 </head>
 
-<body data-type="index">
+<body data-type="index" style="background-color: #E9ECF3">
 
 
 <header class="am-topbar am-topbar-inverse admin-header">

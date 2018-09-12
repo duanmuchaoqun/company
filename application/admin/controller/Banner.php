@@ -35,9 +35,18 @@ class Banner extends Controller
 
     public function create()
     {
-        if ($this->request->isPost()){
-            echo '这是post请求';
+        if ($this->request->isPost()) {
+            $params = $this->request->param();
+            $image = pathinfo($params['image_url']);
+            $image_url = ROOT_PATH . 'public/' . $params['image_url'];
+            $path = ROOT_PATH . 'public/' . '/static/assets/images/banner/' . time() . '.' . $image['extension'];
+
+            $result = copy($image_url, $path);
+            var_dump($result);
+            die;
+            //file_put_contents()
+
         }
-       return $this->fetch('create');
+        return $this->fetch('create');
     }
 }
