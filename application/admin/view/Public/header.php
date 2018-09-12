@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="__STATIC__/assets/css/admin.css">
     <link rel="stylesheet" href="__STATIC__/assets/css/app.css">
     <script src="__STATIC__/assets/js/echarts.min.js"></script>
+    <script src="__STATIC__/assets/js/jquery.min.js"></script>
 </head>
 
 <body data-type="index">
