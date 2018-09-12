@@ -13,11 +13,13 @@
     <link rel="icon" type="image/png" href="__STATIC__/assets/i/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="__STATIC__/assets/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" type="text/css" href="__STATIC__/assets/src/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="__STATIC__/assets/css/amazeui.min.css" />
     <link rel="stylesheet" href="__STATIC__/assets/css/admin.css">
     <link rel="stylesheet" href="__STATIC__/assets/css/app.css">
     <script src="__STATIC__/assets/js/echarts.min.js"></script>
     <script src="__STATIC__/assets/js/jquery.min.js"></script>
+    <script src="__STATIC__/assets/src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 </head>
 
 <body data-type="index" style="background-color: #E9ECF3">

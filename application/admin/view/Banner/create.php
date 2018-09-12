@@ -1,7 +1,5 @@
 <link rel="stylesheet" type="text/css" href="__STATIC__/assets/src/webuploader-0.1.5/webuploader.css">
-<link rel="stylesheet" type="text/css" href="__STATIC__/assets/src/bootstrap-3.3.7-dist/css/bootstrap.min.css">
 <script src="__STATIC__/assets/src/webuploader-0.1.5/webuploader.js"></script>
-<script src="__STATIC__/assets/src/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <div class="tpl-content-wrapper">
         <ol class="am-breadcrumb">
             <li><a href="#" class="am-icon-home">首页</a></li>
